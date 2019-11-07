@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html{
-    background-image: url(index_bkg_img.png);
+    background-color: rgba(0, 52, 110, 0.486);
 }
 div.col-1-10 div.row{
     border: 5px black solid;
@@ -12,15 +12,12 @@ div.col-9-10>div.row>h1{
     text-align: center;
     font-size: 110pt;
     padding: 10px;
-    color: white;
-    text-shadow: gold 10px 10px 20px;
+    text-shadow: white 10px 10px 20px;
 }
 div[class^="col-"]{
     float: left;
 }
-div.col-9-10>div.row>img#second{
-    transform: translate(100px,-50px);
-}
 div.col-1-10{width:10%}
 div.col-9-10{width:90%}
 div.col-1-5{width:20%}
+div.col-1-2{width:50%}

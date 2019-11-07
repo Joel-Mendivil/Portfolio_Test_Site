@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html{
-    background: url(about_me_icon.jpg) center/contain;
+    background: linear-gradient(rgb(255, 0, 255),rgb(255, 251, 0),rgb(0, 255, 13),rgb(0, 255, 255));
 }
 div.col-1-10 div.row{
     border: 5px black solid;
@@ -12,30 +12,20 @@ div.col-9-10>div.row>h1{
     text-align: center;
     font-size: 110pt;
     padding: 10px;
-    text-shadow: rgb(51,51,51) 10px 10px 20px
+    text-shadow: rgb(51,51,51) 10px 10px 20px;
 }
-div.col-9-10>div.row>div.col-1-2>p{
+div.col-9-10>div.row>div.col-1-2>address{
     text-align: center;
     font-size: 18pt;
     padding: 20px;
-    background-color: rgb(2, 10, 121);
-    color: white;
+    background-color: lightblue;
+    color: black;
     transform: translate(10px, 100px);
     border: 5px black solid;
-    box-shadow: rgb(51,51,51) 10px 10px 20px;
+    box-shadow: darkblue 10px 10px 20px;
 }
 div[class^="col-"]{
     float: left;
-}
-img#number1{
-    transform: translate(20px, -15px);
-}
-img#number2{
-    transform: translate(20px, 90px);
-    background-color: white;
-}
-img#number3{
-    transform: translateY(100px);
 }
 div.col-1-10{width:10%}
 div.col-9-10{width:90%}
