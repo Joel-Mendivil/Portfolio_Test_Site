@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html{
-    background-image: url(index_bkg_img.jpeg);
+    background-color: orange;
 }
 div.col-1-10 div.row{
     border: 5px black solid;
@@ -12,7 +12,7 @@ div.col-9-10>div.row>h1{
     text-align: center;
     font-size: 110pt;
     padding: 10px;
-    color: white;
+    color: black;
     text-shadow: rgb(51,51,51) 10px 10px 20px;
 }
 div[class^="col-"]{

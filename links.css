@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html{
-    background-color: rgba(0, 52, 110, 0.486);
+    background-color: rgb(102, 173, 255);
 }
 div.col-1-10 div.row{
     border: 5px black solid;
@@ -9,10 +9,11 @@ div.col-1-10 div.row{
     padding: 10px;
 }
 div.col-9-10>div.row>h1{
+    color: rgb(209, 0, 0);
     text-align: center;
     font-size: 110pt;
     padding: 10px;
-    text-shadow: white 10px 10px 20px;
+    text-shadow: rgb(51,51,51) 10px 10px 20px;
 }
 div[class^="col-"]{
     float: left;
