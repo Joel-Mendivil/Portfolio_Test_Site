@@ -4,9 +4,10 @@ html{
     background-color: orange;
 }
 div.col-1-10 div.row{
-    border: 5px black solid;
+    border: 5px rgb(160, 85, 0) solid;
     align-content: center;
     padding: 10px;
+    box-shadow: rgb(51,51,51) 10px 10px 20px;
 }
 div.col-9-10>div.row>h1{
     text-align: center;

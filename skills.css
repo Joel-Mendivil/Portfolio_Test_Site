@@ -1,12 +1,13 @@
 @charset "utf-8";
 
 html{
-    background-color: rgb(7, 209, 0);
+    background-color: rgb(5, 146, 0);
 }
 div.col-1-10 div.row{
-    border: 5px black solid;
+    border: 5px rgb(4, 92, 1) solid;
     align-content: center;
     padding: 10px;
+    box-shadow: rgb(51,51,51) 10px 10px 20px;
 }
 div.col-9-10>div.row>h1{
     color: white;
@@ -16,10 +17,11 @@ div.col-9-10>div.row>h1{
     text-shadow: rgb(51,51,51) 10px 10px 20px;
 }
 div.col-9-10>div.row>div.col-1-2>ul#skills li{
+    border-radius: 25px;
     text-align: center;
     font-size: 18pt;
     padding: 10px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(211, 3, 3);
     color: white;
     transform: translate(75px, 100px);
     text-decoration: none;

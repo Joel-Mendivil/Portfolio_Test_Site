@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+html {
+    height: 100%;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    max-width: 960px;
+    min-width:640px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+img#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.row nav::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+}
+
+nav a:hover,nav a:active{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+div.row{
+    clear:left;
+}
+div.col-1-4 a{
+    width: 25%;
+    display: block;
+    float: left;
+    background-color: gray;
+    color: white;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center;  
+    text-decoration: none; 
+}  
+
+header{
+    background-color: white;
+}

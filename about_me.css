@@ -1,29 +1,31 @@
 @charset "utf-8";
 
 html{
-    background-color: rgb(255, 230, 0);
+    background-color: white;
 }
 div.col-1-10 div.row{
-    border: 5px black solid;
+    border: 5px rgb(119, 119, 119) solid;
     align-content: center;
     padding: 10px;
+    box-shadow: black 10px 10px 20px;
 }
 div.col-9-10>div.row>h1{
-    color: darkblue;
+    color: black;
     text-align: center;
     font-size: 110pt;
     padding: 10px;
-    text-shadow: rgb(51,51,51) 10px 10px 20px
+    text-shadow: rgb(51,51,51) 10px 10px 10px;
 }
 div.col-9-10>div.row>div.col-1-2>p{
+    border-radius: 25px;
     text-align: center;
     font-size: 18pt;
     padding: 20px;
-    background-color: rgb(2, 10, 121);
+    background-color: red;
     color: white;
-    transform: translate(10px, 100px);
+    transform: translate(30px, 100px);
     border: 5px black solid;
-    box-shadow: rgb(51,51,51) 10px 10px 20px;
+    box-shadow: rgb(51,51,51) 10px 10px 10px;
 }
 div[class^="col-"]{
     float: left;
@@ -34,9 +36,15 @@ img#number1{
 img#number2{
     transform: translate(-125px,-33px);
     background-color: white;
+    border: black 5px solid;
+    border-radius: 25px;
+    box-shadow: rgb(51,51,51) 10px 10px 10px;
 }
 img#number3{
     transform: translate(100px,-37px);
+    border: black 5px solid;
+    border-radius: 25px;
+    box-shadow: rgb(51,51,51) 10px 10px 10px;
 }
 div.col-1-10{width:10%}
 div.col-9-10{width:90%}
