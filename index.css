@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html{
-    background-color: orange;
+    background-color: rgb(194, 126, 0);
 }
 div.col-1-10 div.row{
     border: 5px rgb(160, 85, 0) solid;
