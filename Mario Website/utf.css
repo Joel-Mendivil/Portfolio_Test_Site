@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*
+ Author: Project by: Joel Mendivil, Beckam Le,
+    Audrey Sparks, and Ariahnnah Porras
+
+    Date: 10/17/19
+*/
+html{
+    background: url(mario_homepage_background.jpg);
+}
+@font-face{
+    font-family: Mario Font;  
+    src: url(SuperMario256.ttf) format('truetype'),
+    url(SuperMario256.woff) format('woff'),
+    url(SuperMario256.woff2) format('woff2');
+}
+body{
+    margin: 0px auto;
+    width:100%;
+    min-width: 920px;
+    max-width: 1300px;
+    box-shadow: 10px 10px 20px rgb(51,51,51),
+               -10px -10px 20px rgb(51,51,51);
+    background: rgb(245, 243, 127);
+}
+.form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+body::after{
+    clear: both;
+    content: "";
+    display: table;
+ }
+ .row::after{
+    clear: both;
+    content: "";
+    display: table;
+ }
+h1{
+    background-color: white;
+    font-family: Mario Font;
+    font-size: 3.5em;
+    margin:0px;
+ }
+ div[class^="col-1-5"]{
+    width: 20%;
+    float: left;
+ }
+ nav.row a{
+     display: block;
+     background-color: red;
+     text-align: center;
+     margin-top: 0px;
+     text-decoration: none;
+     font-family: Mario Font;
+     padding-top: 5px;
+ }
+ nav.row a:link, 
+ nav.row a:visited {
+    color: black;
+    background-color: red;
+}
+ nav.row a:hover, 
+ nav.row a:active {
+    color: black;
+    background-color: yellow;
+} 
+footer{
+    display: block;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 0px;
+    font-family: Mario Font;
+    padding-top: 5px;
+}

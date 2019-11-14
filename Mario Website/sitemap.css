@@ -1,0 +1,94 @@
+@charset "utf-8";
+/*
+
+Author: Beckham Le
+Date: 10/15/19
+
+*/
+@font-face{
+    font-family: Mario Font;  
+    src: url(SuperMario256.ttf) format('truetype'),
+    url(SuperMario256.woff) format('woff'),
+    url(SuperMario256.woff2) format('woff2');
+}
+
+/*Body Structure*/
+html{
+    background: url(mario_homepage_background.jpg);
+}
+
+body{
+    margin: 0px auto;
+    width:100%;
+    min-width: 920px;
+    max-width: 1300px;
+    box-shadow: 10px 10px 20px rgb(51,51,51),
+               -10px -10px 20px rgb(51,51,51);
+    background: url(sitemap_background.png);
+    background-size: cover;
+}
+div[class^="col-1-3"]{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+/*Structures the body and backgrounds of the html and body and makes 3 columns*/
+
+/*Clearing Collapses*/
+body::after{
+    clear: both;
+    content: "";
+    display: table;
+ }
+ .row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+/*Clears all floats to prevent collapses*/
+
+/*Horizontal Navigation Bar*/
+ div[class^="col-1-5"]{
+    width: 20%;
+    float: left;
+}
+ nav.row a{
+     display: block;
+     background-color: red;
+     text-align: center;
+     margin-top: 0px;
+     text-decoration: none;
+     font-family: Mario Font;
+     padding-top: 5px;
+ }
+ nav.row a:link, 
+ nav.row a:visited {
+    color: black;
+    background-color: red;
+}
+ nav.row a:hover, 
+ nav.row a:active {
+    color: black;
+    background-color: yellow;
+} 
+/*Creates Navigation tabs that turn yellow when hovered*/
+
+/*Headings*/
+h1{
+    background-color: white;
+    font-family: Mario Font;
+    font-size: 3.5em;
+    margin:0px;
+}
+h2{
+    font-size: 1.8em;
+    font-family: Mario Font;
+    text-decoration: underline;
+}
+h3 a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: Mario Font;
+    color: black;
+}
+/*Sets the headings to the Mario Font and does the other specific stuff it says in each part*/

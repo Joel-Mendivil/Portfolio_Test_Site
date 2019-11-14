@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*
+
+Author: Joel Mendivil and Beckham Le
+Date: 10/15/19
+
+*/
+
+@font-face{
+    font-family:Mario Font;
+    src: url(SuperMario256.ttf) format('truetype'),
+         url(SuperMario256.woff) format('woff'),
+         url(SuperMario256.woff2) format('woff2');
+}
+
+html{
+    width: 100%;
+    background: url(mario_homepage_background.jpg) fixed;
+}
+body{
+    box-shadow: rgb(51,51,51) 2px 2px 2px;
+    background: linear-gradient(80deg, red, white, red);
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body>div.whiterow>img{
+    min-width: 250px;
+    max-width: 250px;
+    display: block;
+    width: 100%;
+}
+div.skyrow{
+    background: url(mario_body_background.png);
+}
+body>div.redrow>header>nav.horizontalNavigation>ul li{
+    width: 100%;
+    display: block;
+    float: left;
+    font-family:Mario Font;
+    text-align: center;
+}
+nav.horizontalNavigation a{
+    display: block;
+    text-align: center;
+}
+ nav.horizontalNavigation a:link, 
+ nav.horizontalNavigation a:visited {
+    color: black;
+    background-color: red;
+}
+ nav.horizontalNavigation a:hover, 
+ nav.horizontalNavigation a:active {
+    color: black;
+    background-color: yellow;
+}   
+div.skyrow>div.col-2-3{
+    float: left;
+    width: 67%;
+}
+div.skyrow>div.col-1-3>section#rightColumn img{
+    display: block;
+    width: 100%;
+}
+div.redrow, div.whiterow, div.skyrow{
+    clear: both;
+}
+div.skyrow:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+div[class^="col-"]{
+    float: left;
+}
+section#leftColumn>div.col-2-3{
+    padding: 20px 1px 2px 20px;
+    background: linear-gradient(60deg, yellow, red, blue);
+    box-shadow: rgb(51,51,51) -10px 10px 10px;
+    font-family: Mario Font;
+}
+#description{
+    transform: translate(25px, 25px);
+    border-radius: 10px;
+    border-style: red solid;
+    border-width: 10px
+}
+#mario{
+    transform: translate(-25px, 5px);
+}
+#luigi{
+    transform: translate(100px, -50px);
+}
+#luigi_description{
+    background-color: white;
+    box-shadow: rgb(51,51,51) -10px 10px 10px;
+    padding: 20px 1px 2px 20px;
+    transform: translate(125px, 20px);
+    border-radius: 10px;
+    font-family: Mario Font;
+    background: linear-gradient(60deg, yellow, green, blue);
+}
+div.col-1-5{width:20%}
+div.col-2-3{width:67%}
+div.col-1-3{width:33%}
+div.col-3-5{width:60%}

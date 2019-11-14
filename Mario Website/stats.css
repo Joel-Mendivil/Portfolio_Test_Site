@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*
+
+Author: Beckham Le
+Date: 10/15/19
+
+*/
+
+@font-face{
+    font-family: Mario Font;  
+    src: url(SuperMario256.ttf) format('truetype'),
+    url(SuperMario256.woff) format('woff'),
+    url(SuperMario256.woff2) format('woff2');
+}
+
+/*Body Structure*/
+html{
+    background: url(mario_homepage_background.jpg);
+}
+body{
+    margin: 0px;
+    width:100%;
+    min-width: 920px;
+    max-width: 1300px;
+    box-shadow: 10px 10px 20px rgb(51,51,51),
+               -10px -10px 20px rgb(51,51,51);
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    background-color: white;
+    font-family: Mario Font;
+    font-size: 3.5em;
+    margin:0px;
+}
+h2{
+    font-family: Mario Font;
+    font-size: 2em;
+}
+div.row{
+    border-style: solid;
+    border-color: black;
+}
+div.col-1-2{
+    width: 50%;
+    float: left;
+    height: 504px;
+}
+div.col-1-2 p{
+    overflow: auto;
+    padding-right: 17px;
+    max-height: 404px;
+}
+
+/*Clearing Collapses*/
+body::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+ .row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+/*Clears all floats*/
+
+/*Horizontal Navigation Bar*/
+div[class^="col-1-5"]{
+    width: 20%;
+    float: left;
+}
+ nav.row a{
+     display: block;
+     background-color: red;
+     text-align: center;
+     margin-top: 0px;
+     text-decoration: none;
+     font-family: Mario Font;
+     padding-top: 5px;
+ }
+ nav.row a:link, 
+ nav.row a:visited {
+    color: black;
+    background-color: red;
+}
+ nav.row a:hover, 
+ nav.row a:active {
+    color: black;
+    background-color: yellow;
+ }
+/*Creates the nav bar in the Header making it red bg and yellow bg when hovered and making it the Mario Font*/
+
+/*Footer*/
