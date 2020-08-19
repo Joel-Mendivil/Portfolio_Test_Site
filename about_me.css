@@ -1,31 +1,31 @@
 @charset "utf-8";
 
 html{
-    background-color: white;
+    background: rgb(3, 0, 77);
 }
 div.col-1-10 div.row{
-    border: 5px rgb(119, 119, 119) solid;
+    border: 5px rgb(3, 54, 192) solid;
     align-content: center;
     padding: 10px;
-    box-shadow: black 10px 10px 20px;
+    box-shadow: rgb(3, 54, 192) 10px 10px 20px;
 }
 div.col-9-10>div.row>h1{
-    color: black;
+    color: rgb(252, 206, 5);
     text-align: center;
     font-size: 110pt;
     padding: 10px;
-    text-shadow: rgb(51,51,51) 10px 10px 10px;
+    text-shadow: rgb(252, 206, 5) 10px 10px 20px;
 }
 div.col-9-10>div.row>div.col-1-2>p{
     border-radius: 25px;
     text-align: center;
     font-size: 18pt;
     padding: 20px;
-    background-color: red;
+    background-color: rgb(3, 54, 192);
     color: white;
     transform: translate(30px, 100px);
-    border: 5px black solid;
-    box-shadow: rgb(51,51,51) 10px 10px 10px;
+    border: 5px rgb(252, 206, 5) solid;
+    box-shadow: rgb(252, 206, 5) 10px 10px 10px;
 }
 div[class^="col-"]{
     float: left;
@@ -34,17 +34,17 @@ img#number1{
     transform: translate(325px,-150px);
 }
 img#number2{
-    transform: translate(-125px,-33px);
+    transform: translate(150px, -100px);
     background-color: white;
-    border: black 5px solid;
+    border: rgb(252, 206, 5) 5px solid;
     border-radius: 25px;
-    box-shadow: rgb(51,51,51) 10px 10px 10px;
+    box-shadow: rgb(252, 206, 5) 10px 10px 10px;
 }
 img#number3{
     transform: translate(100px,-37px);
-    border: black 5px solid;
+    border: rgb(252, 206, 5) 5px solid;
     border-radius: 25px;
-    box-shadow: rgb(51,51,51) 10px 10px 10px;
+    box-shadow: rgb(252, 206, 5) 10px 10px 10px;
 }
 div.col-1-10{width:10%}
 div.col-9-10{width:90%}

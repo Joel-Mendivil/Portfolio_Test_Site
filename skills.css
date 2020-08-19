@@ -1,33 +1,33 @@
 @charset "utf-8";
 
 html{
-    background-color: rgb(5, 146, 0);
+    background: rgb(3, 0, 77);
 }
 div.col-1-10 div.row{
-    border: 5px rgb(4, 92, 1) solid;
+    border: 5px rgb(3, 54, 192) solid;
     align-content: center;
     padding: 10px;
-    box-shadow: rgb(51,51,51) 10px 10px 20px;
+    box-shadow: rgb(3, 54, 192) 10px 10px 20px;
 }
 div.col-9-10>div.row>h1{
-    color: white;
+    color: rgb(252, 206, 5);
     text-align: center;
     font-size: 110pt;
     padding: 10px;
-    text-shadow: rgb(51,51,51) 10px 10px 20px;
+    text-shadow: rgb(252, 206, 5) 10px 10px 20px;
 }
 div.col-9-10>div.row>div.col-1-2>ul#skills li{
     border-radius: 25px;
     text-align: center;
     font-size: 18pt;
     padding: 10px;
-    background-color: rgb(211, 3, 3);
-    color: white;
+    background-color: rgb(252, 206, 5);
+    color: rgb(3, 0, 77);
     transform: translate(75px, 100px);
     text-decoration: none;
     list-style: none;
     border: 5px black solid;
-    box-shadow: rgb(51,51,51) 10px 10px 20px;
+    box-shadow: rgb(252, 206, 5) 10px 10px 20px;
 }
 div[class^="col-"]{
     float: left;
