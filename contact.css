@@ -3,6 +3,12 @@
 html{
     background-color: rgb(3, 0, 77);
 }
+div.col-1-10{
+    background-color: white;
+}
+div.col-1-10 nav:hover{
+    background-color: rgb(252, 206, 5);
+}
 div.col-1-10 div.row{
     border: 5px rgb(3, 54, 192) solid;
     align-content: center;
@@ -14,20 +20,20 @@ div.col-9-10>div.row>h1{
     text-align: center;
     font-size: 110pt;
     padding: 10px;
-    text-shadow: rgb(2,1,61) 10px 10px 20px;
+    text-shadow: rgb(252, 206, 5) 10px 10px 20px;
 }
 div.col-9-10>div.row>div.col-1-2>address{
     text-align: center;
     font-size: 18pt;
     padding: 20px;
     background-color: rgb(3, 54, 192);
-    color: black;
+    color: white;
     transform: translate(50px, 100px);
     border: 5px rgb(252, 206, 5) solid;
     box-shadow: rgb(252, 206, 5) 10px 10px 20px;
 }
 div.col-9-10>div.row>div.col-1-2>address a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 div[class^="col-"]{

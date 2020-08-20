@@ -3,6 +3,12 @@
 html{
     background: rgb(3, 0, 77);
 }
+div.col-1-10{
+    background-color: white;
+}
+div.col-1-10 nav:hover{
+    background-color: rgb(252, 206, 5);
+}
 div.col-1-10 div.row{
     border: 5px rgb(3, 54, 192) solid;
     align-content: center;
@@ -21,12 +27,12 @@ div.col-9-10>div.row>div.col-1-2>ul#skills li{
     text-align: center;
     font-size: 18pt;
     padding: 10px;
-    background-color: rgb(252, 206, 5);
-    color: rgb(3, 0, 77);
+    background-color: rgb(3, 54, 192);
+    color: white;
     transform: translate(75px, 100px);
     text-decoration: none;
     list-style: none;
-    border: 5px black solid;
+    border: 5px rgb(252, 206, 5) solid;
     box-shadow: rgb(252, 206, 5) 10px 10px 20px;
 }
 div[class^="col-"]{

@@ -3,6 +3,12 @@
 html{
     background-color: rgb(3, 0, 77);
 }
+div.col-1-10{
+    background-color: white;
+}
+div.col-1-10 nav:hover{
+    background-color: rgb(252, 206, 5);
+}
 div.col-1-10 div.row{
     border: 5px rgb(3, 54, 192) solid;
     align-content: center;
